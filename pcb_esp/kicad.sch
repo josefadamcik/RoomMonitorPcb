@@ -17,204 +17,166 @@ $EndDescr
 $Comp
 L lt1763:LT1963 U1
 U 1 1 5D66AE48
-P 4350 1100
-F 0 "U1" H 4350 1567 50  0000 C CNN
-F 1 "LT1963" H 4350 1476 50  0000 C CNN
-F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 4350 350 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1763fh.pdf" H 4350 550 50  0001 C CNN
-	1    4350 1100
+P 4450 1100
+F 0 "U1" H 4450 1567 50  0000 C CNN
+F 1 "LT1963" H 4450 1476 50  0000 C CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 4450 350 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1763fh.pdf" H 4450 550 50  0001 C CNN
+	1    4450 1100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C1
 U 1 1 5D66BDA0
-P 5100 1050
-F 0 "C1" H 5215 1096 50  0000 L CNN
-F 1 "0.01u" H 5215 1005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5138 900 50  0001 C CNN
-F 3 "~" H 5100 1050 50  0001 C CNN
-	1    5100 1050
+P 5200 1050
+F 0 "C1" H 5315 1096 50  0000 L CNN
+F 1 "0.01u" H 5315 1005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5238 900 50  0001 C CNN
+F 3 "~" H 5200 1050 50  0001 C CNN
+	1    5200 1050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 900  5100 900 
+	4850 900  5200 900 
 Wire Wire Line
-	4750 1200 5100 1200
+	4850 1200 5200 1200
 Wire Wire Line
-	3900 900  3900 1100
+	4000 900  4000 1100
 Wire Wire Line
-	3900 1100 3950 1100
-Connection ~ 3900 900 
+	4000 1100 4050 1100
+Connection ~ 4000 900 
 Wire Wire Line
-	3900 900  3950 900 
-Wire Wire Line
-	4250 1400 4350 1400
+	4000 900  4050 900 
 Wire Wire Line
 	4350 1400 4450 1400
-Connection ~ 4350 1400
+Wire Wire Line
+	4450 1400 4550 1400
+Connection ~ 4450 1400
 $Comp
 L Device:R R1
 U 1 1 5D66D87C
-P 5600 1050
-F 0 "R1" H 5670 1096 50  0000 L CNN
-F 1 "1M" H 5670 1005 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 5530 1050 50  0001 C CNN
-F 3 "~" H 5600 1050 50  0001 C CNN
-	1    5600 1050
+P 5700 1050
+F 0 "R1" H 5770 1096 50  0000 L CNN
+F 1 "1M" H 5770 1005 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5630 1050 50  0001 C CNN
+F 3 "~" H 5700 1050 50  0001 C CNN
+	1    5700 1050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R2
 U 1 1 5D66DD1B
-P 5600 1400
-F 0 "R2" H 5670 1446 50  0000 L CNN
-F 1 "680k" H 5670 1355 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 5530 1400 50  0001 C CNN
-F 3 "~" H 5600 1400 50  0001 C CNN
-	1    5600 1400
+P 5700 1400
+F 0 "R2" H 5770 1446 50  0000 L CNN
+F 1 "680k" H 5770 1355 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5630 1400 50  0001 C CNN
+F 3 "~" H 5700 1400 50  0001 C CNN
+	1    5700 1400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 900  5600 900 
-Connection ~ 5100 900 
+	5200 900  5700 900 
+Connection ~ 5200 900 
 Wire Wire Line
-	4750 1000 4950 1000
+	4850 1000 5050 1000
 Wire Wire Line
-	4950 1000 4950 1250
+	5050 1000 5050 1250
 Wire Wire Line
-	4950 1250 5600 1250
+	5050 1250 5700 1250
 Wire Wire Line
-	5600 1250 5600 1200
-Connection ~ 5600 1250
+	5700 1250 5700 1200
+Connection ~ 5700 1250
 Wire Wire Line
-	5600 1550 4450 1550
+	5700 1550 4550 1550
 Wire Wire Line
-	4450 1550 4450 1400
-Connection ~ 4450 1400
+	4550 1550 4550 1400
+Connection ~ 4550 1400
 $Comp
 L Device:CP C3
 U 1 1 5D66F7C0
-P 6100 1200
-F 0 "C3" H 6218 1246 50  0000 L CNN
-F 1 "10u" H 6218 1155 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 6138 1050 50  0001 C CNN
-F 3 "~" H 6100 1200 50  0001 C CNN
-	1    6100 1200
+P 6200 1200
+F 0 "C3" H 6318 1246 50  0000 L CNN
+F 1 "10u" H 6318 1155 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 6238 1050 50  0001 C CNN
+F 3 "~" H 6200 1200 50  0001 C CNN
+	1    6200 1200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5600 900  6100 900 
+	5700 900  6200 900 
 Wire Wire Line
-	6100 900  6100 1050
-Connection ~ 5600 900 
+	6200 900  6200 1050
+Connection ~ 5700 900 
 Wire Wire Line
-	5600 1550 6100 1550
+	5700 1550 6200 1550
 Wire Wire Line
-	6100 1550 6100 1350
-Connection ~ 5600 1550
+	6200 1550 6200 1350
+Connection ~ 5700 1550
 $Comp
 L Device:CP C2
 U 1 1 5D66CA68
-P 3100 1050
-F 0 "C2" H 3218 1096 50  0000 L CNN
-F 1 "10u" H 3218 1005 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 3138 900 50  0001 C CNN
-F 3 "~" H 3100 1050 50  0001 C CNN
-	1    3100 1050
+P 3200 1050
+F 0 "C2" H 3318 1096 50  0000 L CNN
+F 1 "10u" H 3318 1005 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 3238 900 50  0001 C CNN
+F 3 "~" H 3200 1050 50  0001 C CNN
+	1    3200 1050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3100 900  3550 900 
+	3200 900  3650 900 
 $Comp
 L Device:R R3
 U 1 1 5D68000D
-P 3550 1050
-F 0 "R3" H 3620 1096 50  0000 L CNN
-F 1 "1M" H 3620 1005 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 3480 1050 50  0001 C CNN
-F 3 "~" H 3550 1050 50  0001 C CNN
-	1    3550 1050
+P 3650 1050
+F 0 "R3" H 3720 1096 50  0000 L CNN
+F 1 "1M" H 3720 1005 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3580 1050 50  0001 C CNN
+F 3 "~" H 3650 1050 50  0001 C CNN
+	1    3650 1050
 	1    0    0    -1  
 $EndComp
-Connection ~ 3550 900 
+Connection ~ 3650 900 
 Wire Wire Line
-	3550 900  3900 900 
+	3650 900  4000 900 
 $Comp
 L Device:R R4
 U 1 1 5D68063C
-P 3550 1400
-F 0 "R4" H 3620 1446 50  0000 L CNN
-F 1 "220k" H 3620 1355 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 3480 1400 50  0001 C CNN
-F 3 "~" H 3550 1400 50  0001 C CNN
-	1    3550 1400
+P 3650 1400
+F 0 "R4" H 3720 1446 50  0000 L CNN
+F 1 "220k" H 3720 1355 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3580 1400 50  0001 C CNN
+F 3 "~" H 3650 1400 50  0001 C CNN
+	1    3650 1400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4250 1400 4250 1550
+	4350 1400 4350 1550
 Wire Wire Line
-	4250 1550 3550 1550
-Connection ~ 4250 1400
-Connection ~ 3550 1550
+	4350 1550 3650 1550
+Connection ~ 4350 1400
+Connection ~ 3650 1550
 Wire Wire Line
-	3100 1200 3100 1550
+	3200 1200 3200 1550
 Wire Wire Line
-	3550 1200 3550 1250
-Text GLabel 3450 1200 0    50   Output ~ 0
+	3650 1200 3650 1250
+Text GLabel 3550 1200 0    50   Output ~ 0
 ADC
 Wire Wire Line
-	3450 1200 3550 1200
-Connection ~ 3550 1200
-$Comp
-L projectlib:TP4056Module M1
-U 1 1 5D68A11D
-P 1350 1000
-F 0 "M1" H 1375 1365 50  0000 C CNN
-F 1 "TP4056Module" H 1375 1274 50  0000 C CNN
-F 2 "footprints:TP4056_Module" H 1350 1000 50  0001 C CNN
-F 3 "" H 1350 1000 50  0001 C CNN
-	1    1350 1000
-	1    0    0    -1  
-$EndComp
+	3550 1200 3650 1200
+Connection ~ 3650 1200
 Wire Wire Line
-	1950 900  3100 900 
-Connection ~ 3100 900 
-Wire Wire Line
-	1950 1100 2550 1100
-Wire Wire Line
-	2550 1100 2550 1550
-Wire Wire Line
-	2550 1550 3100 1550
-Connection ~ 3100 1550
-Wire Wire Line
-	3100 1550 3550 1550
-$Comp
-L Device:Battery_Cell BT1
-U 1 1 5D6973D2
-P 1400 2000
-F 0 "BT1" V 1655 2050 50  0000 C CNN
-F 1 "18650" V 1250 2050 50  0000 C CNN
-F 2 "Battery:BatteryHolder_MPD_BH-18650-PC2" V 1400 2060 50  0001 C CNN
-F 3 "~" V 1400 2060 50  0001 C CNN
-	1    1400 2000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1200 2000 1200 1300
-Wire Wire Line
-	1200 1300 1250 1300
-Wire Wire Line
-	1500 1300 1500 2000
-Text GLabel 6250 900  2    50   Output ~ 0
+	3200 1550 3650 1550
+Text GLabel 6350 900  2    50   Output ~ 0
 PWR
-Text GLabel 6250 1550 2    50   Output ~ 0
+Text GLabel 6350 1550 2    50   Output ~ 0
 GND
 Wire Wire Line
-	6250 1550 6100 1550
-Connection ~ 6100 1550
+	6350 1550 6200 1550
+Connection ~ 6200 1550
 Wire Wire Line
-	6250 900  6100 900 
-Connection ~ 6100 900 
+	6350 900  6200 900 
+Connection ~ 6200 900 
 Text GLabel 1350 2450 0    50   Input ~ 0
 PWR
 Text GLabel 1350 4200 0    50   Input ~ 0
@@ -476,8 +438,6 @@ Wire Wire Line
 	4850 3200 5000 3200
 Wire Wire Line
 	4850 3300 5000 3300
-NoConn ~ 800  900 
-NoConn ~ 800  1100
 Wire Wire Line
 	1950 4200 2800 4200
 Wire Wire Line
@@ -506,12 +466,7 @@ $EndComp
 Wire Wire Line
 	3300 3950 3300 4100
 Wire Wire Line
-	3300 4100 4250 4100
-Wire Wire Line
 	4850 4100 4850 3800
-Connection ~ 4250 4100
-Wire Wire Line
-	4250 4100 4850 4100
 Wire Wire Line
 	3300 3450 3300 3300
 Wire Wire Line
@@ -572,4 +527,34 @@ Wire Wire Line
 	2900 5200 3250 5200
 Wire Wire Line
 	2900 5300 3250 5300
+$Comp
+L Connector_Generic:Conn_01x01 J5
+U 1 1 5D74DF00
+P 2450 900
+F 0 "J5" H 2368 675 50  0000 C CNN
+F 1 "PWRIN" H 2368 766 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 2450 900 50  0001 C CNN
+F 3 "~" H 2450 900 50  0001 C CNN
+	1    2450 900 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 5D74E42F
+P 2450 1550
+F 0 "J6" H 2368 1325 50  0000 C CNN
+F 1 "GND" H 2368 1416 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 2450 1550 50  0001 C CNN
+F 3 "~" H 2450 1550 50  0001 C CNN
+	1    2450 1550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2650 900  3200 900 
+Connection ~ 3200 900 
+Wire Wire Line
+	2650 1550 3200 1550
+Connection ~ 3200 1550
+Wire Wire Line
+	3300 4100 4850 4100
 $EndSCHEMATC
