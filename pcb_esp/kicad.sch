@@ -332,17 +332,6 @@ Wire Wire Line
 	5850 4200 5400 4200
 Connection ~ 5400 4200
 $Comp
-L Device:CP C5
-U 1 1 5D6DCA12
-P 1950 3350
-F 0 "C5" H 2068 3396 50  0000 L CNN
-F 1 "470u" H 2068 3305 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 1988 3200 50  0001 C CNN
-F 3 "~" H 1950 3350 50  0001 C CNN
-	1    1950 3350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C4
 U 1 1 5D6DDB59
 P 1500 3350
@@ -356,21 +345,6 @@ $EndComp
 Wire Wire Line
 	1500 3200 1500 2450
 Connection ~ 1500 2450
-Wire Wire Line
-	1950 3250 1950 3200
-Wire Wire Line
-	1500 2450 1950 2450
-Connection ~ 1950 2450
-Wire Wire Line
-	1950 2450 2300 2450
-Connection ~ 1950 3200
-Wire Wire Line
-	1950 3200 1950 2450
-Wire Wire Line
-	1950 3500 1950 4200
-Connection ~ 1950 4200
-Wire Wire Line
-	1950 4200 1500 4200
 Wire Wire Line
 	1500 3500 1500 4200
 Connection ~ 1500 4200
@@ -438,8 +412,6 @@ Wire Wire Line
 	4850 3200 5000 3200
 Wire Wire Line
 	4850 3300 5000 3300
-Wire Wire Line
-	1950 4200 2800 4200
 Wire Wire Line
 	2800 2800 2800 3300
 Connection ~ 2800 2800
@@ -557,4 +529,22 @@ Wire Wire Line
 Connection ~ 3200 1550
 Wire Wire Line
 	3300 4100 4850 4100
+Wire Wire Line
+	1500 4200 2800 4200
+Wire Wire Line
+	1500 2450 2300 2450
+Text Label 2800 900  0    50   ~ 0
+PWR+
+Text Label 2850 1550 0    50   ~ 0
+GND
+Text Label 4850 4000 0    50   ~ 0
+GPIO16
+Text Label 3450 3000 0    50   ~ 0
+EN
+Text Label 5100 3700 0    50   ~ 0
+GPIO15
+Text Label 4950 1000 0    50   ~ 0
+ADJ
+Text Label 4900 1200 0    50   ~ 0
+BYP
 $EndSCHEMATC
