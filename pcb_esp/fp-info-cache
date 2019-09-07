@@ -1,4 +1,4 @@
-16350542402107444
+16352110263629992
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -72925,6 +72925,13 @@ TP4056_Module
 0
 6
 6
+logos
+KiCad-Logo2_5mm_Copper_Mask
+KiCad Logo
+Logo KiCad
+0
+0
+0
 sepiapcb
 BatteryHolder_THT_CR2032
 http://www.keyelco.com/product-pdf.cfm?p=787

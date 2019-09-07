@@ -543,4 +543,8 @@ Text Label 3450 3000 0    50   ~ 0
 EN
 Text Label 5100 3700 0    50   ~ 0
 GPIO15
+Text Label 4950 1000 0    50   ~ 0
+ADJ
+Text Label 4900 1200 0    50   ~ 0
+BYP
 $EndSCHEMATC

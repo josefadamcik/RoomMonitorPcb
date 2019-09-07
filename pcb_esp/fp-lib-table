@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name some)(type KiCad)(uri /home/josef/projekty/misc_footprints/misc_footprints.pretty)(options "")(descr ""))
   (lib (name footprints)(type KiCad)(uri /home/josef/projekty/RoomMonitorPcb/footprints.pretty)(options "")(descr ""))
+  (lib (name logos)(type KiCad)(uri /home/josef/projekty/RoomMonitorPcb/logos.pretty)(options "")(descr ""))
 )
