@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name lt1763)(type Legacy)(uri ${KIPRJMOD}/lt1763.lib)(options "")(descr ""))
+  (lib (name projectlib)(type Legacy)(uri ${KIPRJMOD}/projectlib.lib)(options "")(descr ""))
+)
