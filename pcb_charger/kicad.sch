@@ -93,4 +93,14 @@ Wire Wire Line
 Wire Wire Line
 	2800 1800 3100 1800
 NoConn ~ 2800 2000
+Text Label 1550 2400 0    50   ~ 0
+B+
+Text Label 1800 2400 0    50   ~ 0
+B-
+Text Label 2850 1800 0    50   ~ 0
+OUT+on
+Text Label 2350 2100 0    50   ~ 0
+OUT-
+Text Label 2300 1900 0    50   ~ 0
+OUT+
 $EndSCHEMATC

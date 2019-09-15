@@ -54,7 +54,7 @@ L Connector_Generic:Conn_01x01 J4
 U 1 1 5D753ABE
 P 3300 2100
 F 0 "J4" H 3380 2142 50  0000 L CNN
-F 1 "OUT+" H 3380 2051 50  0000 L CNN
+F 1 "OUT-" H 3380 2051 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 3300 2100 50  0001 C CNN
 F 3 "~" H 3300 2100 50  0001 C CNN
 	1    3300 2100
@@ -93,4 +93,12 @@ Wire Wire Line
 Wire Wire Line
 	2800 1800 3100 1800
 NoConn ~ 2800 2000
+Text Label 1550 2400 0    50   ~ 0
+B+
+Text Label 1800 2400 0    50   ~ 0
+B-
+Text Label 2850 1800 0    50   ~ 0
+OUT+on
+Text Label 2350 2100 0    50   ~ 0
+OUT-
 $EndSCHEMATC
