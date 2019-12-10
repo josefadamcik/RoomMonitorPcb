@@ -39,8 +39,6 @@ $EndComp
 Wire Wire Line
 	4850 900  5200 900 
 Wire Wire Line
-	4850 1200 5200 1200
-Wire Wire Line
 	4000 900  4000 1100
 Wire Wire Line
 	4000 1100 4050 1100
@@ -547,4 +545,8 @@ Text Label 4950 1000 0    50   ~ 0
 ADJ
 Text Label 4900 1200 0    50   ~ 0
 BYP
+Wire Wire Line
+	4850 1150 4850 1200
+Wire Wire Line
+	4850 1200 5200 1200
 $EndSCHEMATC

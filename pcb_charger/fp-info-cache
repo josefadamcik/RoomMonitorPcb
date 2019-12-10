@@ -1,4 +1,4 @@
-16336514687942527
+16334991650993780
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -72918,94 +72918,87 @@ varistor SIOV
 0
 2
 2
-footprints
-TP4056_Module
-
-
-0
-6
-6
-logos
-KiCad-Logo2_5mm_Copper_Mask
-KiCad Logo
-Logo KiCad
-0
-0
-0
-logos
-roommonitor-rev
-
-
-0
-0
-0
-some
-4056E_LiIon_loader
-
-
-0
-6
-6
-some
-4056E_LiIon_loader_SMT
-
-
-0
-6
-6
-some
-4056E_LiIon_loader_prot
-
-
-0
-6
-6
-some
-16850_cell_casket
-
-
-0
-2
-2
-some
-MP1584_buck_module
+kicad_footprint_libraries
+MJ-4PP-9
 
 
 0
 8
 4
-some
-MT3608_module
-
-
-0
-4
-4
-some
-MT3608_module_SMT
-
-
+kicad_footprint_libraries
+RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm-keebio_modified
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
 0
 7
-4
-some
-N95_battery_connector
+6
+logos
+josef_adamcik_20mm_cu_mask
 
 
+0
+0
+0
+logos
+josef_adamcik_20mm_silk
+
+
+0
+0
+0
+snowman_pcb
+B.Mask_g828
+
+
+0
+0
+0
+snowman_pcb
+BatteryHolder_THT_CR2032
+http://www.keyelco.com/product-pdf.cfm?p=787
+Keystone type 3009 coin cell retainer
 0
 3
-3
-some
-XL6009_module
+2
+snowman_pcb
+F.Cu_g832
 
 
 0
-4
-4
-some
-XL6009_module_SMT
+0
+0
+snowman_pcb
+F.Mask_g834
 
 
 0
-7
-4
+0
+0
+snowman_pcb
+F.Silk_g836
+
+
+0
+0
+0
+snowman_pcb
+LED_1206_3216Metric_ReverseMount_NoHole1.8x2.4mm
+LED SMD 1206 (3216 Metric), reverse mount, square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode reverse
+0
+2
+2
+snowman_pcb
+LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm
+LED, diameter 3.0mm z-position of LED center 2.0mm, 2 pins
+LED diameter 3.0mm z-position of LED center 2.0mm 2 pins
+0
+2
+2
+snowman_pcb
+signature
+
+
+0
+0
+0
