@@ -1,0 +1,37 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>/home/josef/projekty/RoomMonitorPcb/pcb_esp/kicad.sch</h1>
+    <p>Út 17. prosince 2019, 15:47:20 CET</p>
+    <p>Eeschema 5.1.4-e60b266~84~ubuntu19.04.1</p>
+    <p><b>Component Count:</b>24</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>C1</td><td>1</td><td>0.01u</td><td>Device:C</td><td>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C2, C3</td><td>2</td><td>10u</td><td>Device:CP</td><td>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</td><td>Polarized capacitor</td><td></td></tr>
+    <tr><td>C4</td><td>1</td><td>100n</td><td>Device:C</td><td>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>J1</td><td>1</td><td>Prog Pads</td><td>Connector_Generic:Conn_01x05</td><td>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</td><td>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J2</td><td>1</td><td>SLP</td><td>Connector_Generic:Conn_02x01</td><td>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</td><td>Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J3</td><td>1</td><td>SHT21</td><td>Connector_Generic:Conn_01x04</td><td>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</td><td>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J4</td><td>1</td><td>BH1750</td><td>Connector_Generic:Conn_01x05</td><td>Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical</td><td>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J5</td><td>1</td><td>PWRIN</td><td>Connector_Generic:Conn_01x01</td><td>Connector_Wire:SolderWirePad_1x01_Drill1mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J6</td><td>1</td><td>GND</td><td>Connector_Generic:Conn_01x01</td><td>Connector_Wire:SolderWirePad_1x01_Drill1mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>R1, R4</td><td>2</td><td>750k</td><td>Device:R</td><td>Resistor_SMD:R_1206_3216Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R2</td><td>1</td><td>510k</td><td>Device:R</td><td>Resistor_SMD:R_1206_3216Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R3</td><td>1</td><td>3M3</td><td>Device:R</td><td>Resistor_SMD:R_1206_3216Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R5, R6, R7, R8</td><td>4</td><td>10k</td><td>Device:R</td><td>Resistor_SMD:R_1206_3216Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R9, R10</td><td>2</td><td>470</td><td>Device:R</td><td>Resistor_SMD:R_1206_3216Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>SW1</td><td>1</td><td>RST</td><td>Switch:SW_Push</td><td>Button_Switch_SMD:SW_SPST_SKQG_WithStem</td><td>Push button switch, generic, two pins</td><td></td></tr>
+    <tr><td>SW2</td><td>1</td><td>PRG</td><td>Switch:SW_Push</td><td>Button_Switch_SMD:SW_SPST_SKQG_WithStem</td><td>Push button switch, generic, two pins</td><td></td></tr>
+    <tr><td>U1</td><td>1</td><td>LT1963</td><td>lt1763:LT1963</td><td>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</td><td>500mA, Low Noise, LDO Micropower Regulators</td><td></td></tr>
+    <tr><td>U2</td><td>1</td><td>ESP-12F</td><td>RF_Module:ESP-12F</td><td>RF_Module:ESP-12E</td><td>802.11 b/g/n Wi-Fi Module</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    
